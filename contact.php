@@ -5,8 +5,8 @@
 
     $email_from = 'www.agaservices.ga';
     $email_subject = 'Nuevo mensaje de un clinte online';
-    $email_body = "Name: $name.\n".
-                  "Email: $email.\n".
+    $email_body = "Name: $name.\n";
+                  "Email: $email.\n";
                   "Message: $message.\n";
 
     $to ="agarefacciones_lubricantes@outlook.com";
