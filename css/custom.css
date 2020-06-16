@@ -1,6 +1,7 @@
 /* Custom CSS */
 
-body {
+.body {
+    background-color: #21DAF8!important;
     position: relative;
     padding-top: 3.5rem;
         }
