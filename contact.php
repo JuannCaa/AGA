@@ -1,7 +1,7 @@
 <?php
 //Llamando campos
     $name = $_POST['nombre'];
-    $email = $_POST['email'];
+    $email = $_POST['correo'];
     $message = $_POST['comentario'];
  //Datos para el correo
  $destinatario = "agarefaciones_lubricantes@outlook.com";
