@@ -3,7 +3,7 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'www.agaservices.ga';
+    $email_from = 'agarefacciones_lubricantes@outlook.com';
     $email_subject = 'Nuevo mensaje de un clinte online';
     $email_body = "Name: $name.\n";
                   "Email: $email.\n";
