@@ -1,19 +1,19 @@
 <?php
+//Llamando campos
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
+ //Datos para el correo
+ $destinatario = "agarefaciones_lubricantes@outlook.com"
+ $asunto="Contacto desde el sitio web"
 
-    $email_from = 'agarefacciones_lubricantes@outlook.com';
-    $email_subject = 'Nuevo mensaje de un clinte online';
-    $email_body = "Name: $name.\n";
-                  "Email: $email.\n";
-                  "Message: $message.\n";
+ $carta ="De: $name \n"
+ $carta ="Correo: $email \n"
+ $carta ="Comenatrio: $message \n"
 
-    $to ="agarefacciones_lubricantes@outlook.com";
-    $headers = "From: $email_from \r\n";
-    $headers .= "Reply-To: $email \r\n";
-  
-    mail($to,$email_subject,$email_body,$headers);
-  
+ //Envio de correo
+
+ mail($destinatario,$asunto,$carta)
+
     header("location: success.html");
 ?>
