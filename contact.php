@@ -9,11 +9,11 @@
 
  $carta ="De: $name \n";
  $carta ="Correo: $email \n";
- $carta ="Comenatrio: $message \n";
+ $carta ="Comenatrio: $message ";
 
  //Envio de correo
 
- mail($destinatario,$asunto,$carta)
+ mail($destinatario,$asunto,$carta);
 
     header("location: success.html");
 ?>
