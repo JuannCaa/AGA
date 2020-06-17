@@ -1,8 +1,8 @@
 <?php
 //Llamando campos
-    $name = $_POST['name'];
+    $name = $_POST['nombre'];
     $email = $_POST['email'];
-    $message = $_POST['message'];
+    $message = $_POST['comentario'];
  //Datos para el correo
  $destinatario = "agarefaciones_lubricantes@outlook.com";
  $asunto="Contacto desde el sitio web";
