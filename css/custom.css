@@ -93,7 +93,21 @@
     padding: 50px 10px;
     background: linear-gradient(#21ddfb, #19a4ba);
 }
-/* Video Background */
+/*Servicios */   
+.featurette-divider {
+    margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+  }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 50px;
+  margin-top: 7rem;
+}
+     
+   
 
 .wclb {
     padding-top: 200px;
