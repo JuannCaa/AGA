@@ -641,9 +641,9 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="ftaw text-light text-center">
                         <a href="https://www.facebook.com/AGAREFACCIONES/" target="_blank"><i class="fa fa-facebook-square"></i></a> 
-                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square"></i></a> 
+                        <a href="https://twitter.com/22ITSolutions1" target="_blank"><i class="fa fa-twitter-square"></i></a> 
                        
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
